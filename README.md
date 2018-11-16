@@ -12,7 +12,7 @@ To run the application:
 mvn spring-boot:run
 ```
 ## Explore Rest APIs
-Create Employee
+**Create Employee**
 ```
 Method  	: 	POST
 URL		:	http://localhost:8080/api/employee
@@ -31,13 +31,13 @@ Request		:	{
 			}
 			  
 ```			  
-Create get all Employee
+**Create get all Employee**
 ```
 Method  	: 	GET
 URL		:	http://localhost:8080/api/employee
 ```
 
-Update Employee
+**Update Employee**
 ```
 Method  	: 	PUT
 URL		:	http://localhost:8080/api/employee/{employeeId}
@@ -53,13 +53,13 @@ Request		:	{
     			 }
 		     	}
 ```
-Delete Employee
+**Delete Employee**
 ```
 Method  	: 	DELETE
 URL		:	http://localhost:8080/api/employee/{employeeId}
 ```
 
-Get Employee by Employee ID
+**Get Employee by Employee ID**
 ```
 Method  	: 	GET
 URL		:	http://localhost:8080/api/employee/{employeeId}
