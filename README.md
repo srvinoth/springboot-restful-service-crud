@@ -8,10 +8,11 @@ mvn spring-boot:run
 ```
 ## Restful API's 
 Create Employee
-Method  : 	POST
-URL		  :	http://localhost:8080/api/employee
-Header  :   Content-Type : application/json
-Request	:	{
+```
+Method  	: 	POST
+URL		:	http://localhost:8080/api/employee
+Header  	:   Content-Type : application/json
+Request		:	{
     			"employeeID": 1,
     			"employeeName": "Vinoth Kumar",
     			"job": "Software Engineer",
@@ -22,21 +23,23 @@ Request	:	{
         			"departmentID": 1,
         			"departmentName": "INFORMATION TECHNOLOGY"
     			 }
-			  }
+			}
 			  
-			  
+```			  
 Create get all Employee
 ------------------------------------------------------------------
-Method  : 	GET
+```
+Method  	: 	GET
 URL		:	http://localhost:8080/api/employee
-
+```
 
 Update Employee
 ------------------------------------------------------------------
-Method  : 	PUT
+```
+Method  	: 	PUT
 URL		:	http://localhost:8080/api/employee/{employeeId}
-Header  :   Content-Type : application/json
-Request	:	{
+Header  	:   	Content-Type : application/json
+Request		:	{
     			"employeeName": "Vinoth Kumar",
     			"job": "Data Scientist",
     			"salary": 20000,
@@ -45,14 +48,18 @@ Request	:	{
     			"department": {
         			"departmentID": 1,
     			 }
-			  }
-
+		     	}
+```
 Delete Employee
 ------------------------------------------------------------------
-Method  : 	DELETE
+```
+Method  	: 	DELETE
 URL		:	http://localhost:8080/api/employee/{employeeId}
+```
 
 Get Employee by Employee ID
 ------------------------------------------------------------------
-Method  : 	GET
+```
+Method  	: 	GET
 URL		:	http://localhost:8080/api/employee/{employeeId}
+```
