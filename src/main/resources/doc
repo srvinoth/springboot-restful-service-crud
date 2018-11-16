@@ -1,0 +1,50 @@
+Create Employee
+------------------------------------------------------------------
+Method  : 	POST
+URL		:	http://localhost:8080/api/employee
+Header  :   Content-Type : application/json
+Request	:	{
+    			"employeeID": 1,
+    			"employeeName": "John Smith",
+    			"job": "Developer",
+    			"salary": 10000,
+    			"dob": "12-03-1995",
+    			"email": "peter@gmail.com",
+    			"department": {
+        			"departmentID": 1,
+        			"departmentName": "INFORMATION TECHNOLOGY"
+    			 }
+			  }
+			  
+			  
+Create get all Employee
+------------------------------------------------------------------
+Method  : 	GET
+URL		:	http://localhost:8080/api/employee
+
+
+Update Employee
+------------------------------------------------------------------
+Method  : 	PUT
+URL		:	http://localhost:8080/api/employee/{employeeId}
+Header  :   Content-Type : application/json
+Request	:	{
+    			"employeeName": "John Smith",
+    			"job": "Developer",
+    			"salary": 10000,
+    			"dob": "12-03-1995",
+    			"email": "peter@gmail.com",
+    			"department": {
+        			"departmentID": 2,
+    			 }
+			  }
+
+Delete Employee
+------------------------------------------------------------------
+Method  : 	DELETE
+URL		:	http://localhost:8080/api/employee/{employeeId}
+
+Get Employee by Employee ID
+------------------------------------------------------------------
+Method  : 	GET
+URL		:	http://localhost:8080/api/employee/{employeeId}
