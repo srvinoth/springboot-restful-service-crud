@@ -1,7 +1,7 @@
 # springboot-restful-service-crud
 Build Restful CRUD API for a simple CURD application using Spring Boot, Mysql, JPA and Hibernate.
 
-Create Mysql database**
+**Create Mysql database**
 ```bash
 create database emp_db
 ```
